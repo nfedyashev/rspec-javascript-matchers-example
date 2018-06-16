@@ -1,0 +1,5 @@
+<% if @enforce_valid_response %>
+  $('#new_post').append("<h3><%= escape_javascript("Hello World") %></h3>").append("<%= escape_javascript("Foo Bar") %>");
+<% else %>
+  $-'#new_post').append("<h3><%= escape_javascript("Hello World") %></h3>").append("<%= escape_javascript("Foo Bar") %>");
+<% end %>
